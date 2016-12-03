@@ -6,8 +6,8 @@ import xmltodict
 from xml.parsers.expat import ExpatError
 from py_bing_search import PyBingWebSearch
 
-GOODREADS_API_KEY = os.env['GOODREADS_API_KEY']
-BING_SEARCH_API_KEY = os.env['BING_SEARCH_API_KEY']
+GOODREADS_API_KEY = os.environ['GOODREADS_API_KEY']
+BING_SEARCH_API_KEY = os.environ['BING_SEARCH_API_KEY']
 
 
 class BookNotFound(Exception):
