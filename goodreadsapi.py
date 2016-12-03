@@ -1,9 +1,9 @@
 import re
 import os
+from xml.parsers.expat import ExpatError
 
 import requests
 import xmltodict
-from xml.parsers.expat import ExpatError
 from py_bing_search import PyBingWebSearch
 
 GOODREADS_API_KEY = os.environ['GOODREADS_API_KEY']
