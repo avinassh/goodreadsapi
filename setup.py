@@ -22,7 +22,7 @@ setup(
     long_description=long_description,
     install_requires=[
         'py-bing-search==0.2.6',
-        'requests==2.12.3',
+        'requests==2.20.0',
         'xmltodict==0.10.2'
     ],
     classifiers=[
